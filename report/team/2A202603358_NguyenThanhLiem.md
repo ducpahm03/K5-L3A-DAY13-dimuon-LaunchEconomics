@@ -20,7 +20,7 @@
   - Rà soát các chỉ số chính, chỉ số sử dụng, chỉ số an toàn và rủi ro kinh tế trong `chi_so.md`.
 - **Giám sát điều kiện nghiệm thu ("Xong khi"):**
   - Kiểm tra việc gắn nhãn `simulated` cho toàn bộ số liệu giả lập trong các báo cáo.
-  - Đảm bảo loại bỏ hoàn toàn thuật ngữ "production" trong hồ sơ theo chuẩn Gate 2a.
+  - Kiểm tra cách diễn đạt để hồ sơ phản ánh đúng phạm vi duyệt kế hoạch pilot tại Gate 2a.
   - Kiểm tra cấu trúc 4 vế của các luật dừng trong `pilot_plan.yaml`.
 
 ## 3. Đóng góp cụ thể
