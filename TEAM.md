@@ -11,8 +11,8 @@
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò chính | Nhiệm vụ cụ thể |
 | --: | ------ | ---- | ----- | ------ | ------------- | --------------- |
-|   1 |        |      |       |        | **Người viết code** | Cài môi trường, code `src/lab13.py` (CP1, CP2), chạy các test A1 và xuất bảng độ nhạy |
-|   2 |        |      |       |        | **Người kiểm số** | Tính tay đối chiếu số liệu, điền `report/team/bang_chi_phi.md`, đổi viết code từ CP4 (D1) |
+|   1 | Trần Anh Tú | 2A202603368 | atus011205@gmail.com | atus011205 | **Người viết code** | Cài môi trường, code `src/lab13.py` (CP1, CP2), chạy các test A1 và xuất bảng độ nhạy |
+|   2 | Phạm Hữu Đức | 2A202603380 | phamduc31103@gmail.com | ducpahm03 | **Người kiểm số** | Tính tay đối chiếu số liệu, điền `report/team/bang_chi_phi.md`, đổi viết code từ CP4 (D1) |
 |   3 |        |      |       |        | **Người gắn nhãn 1** | Gắn nhãn độc lập 20 ca lỗi CP3, hoàn thiện `report/team/bang_loi.md` & `report/team/chi_so.md` |
 |   4 |        |      |       |        | **Người gắn nhãn 2, kiêm giữ hồ sơ** | Gắn nhãn độc lập 20 ca lỗi CP3, hoàn thiện `report/team/pilot_plan.yaml` & `report/team/ho_so_launch_v0.md` |
 
@@ -33,4 +33,4 @@ Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/tea
 report/team/MSSV_HoTen.md
 ```
 
-Ví dụ: `report/team/20241234_NguyenVanAn.md`.
+Ví dụ: `report/team/2A202603380_PhamHuuDuc.md`.
