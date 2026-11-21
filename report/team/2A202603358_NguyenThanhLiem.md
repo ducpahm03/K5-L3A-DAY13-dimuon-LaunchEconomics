@@ -29,7 +29,7 @@
    - Hoàn thành bộ 20 nhãn độc lập trong 8 phút đúng nguyên tắc không trao đổi trước. Kết quả đối chiếu với Người gắn nhãn 2 (Nguyễn Trung Anh) đạt tỷ lệ đồng thuận rất cao **95,0% (19/20 ca)**, vượt xa ngưỡng yêu cầu 80%.
    - Đưa ra giải thích nguyên nhân gốc để thống nhất ca không trùng duy nhất:
      - *Ca 8 (Hệ thống vs Ngầm → Chốt Hệ thống):* Trợ lý trích "Điều 7.2" không có trong chính sách hiện hành, tức làm sai so với thiết kế; trích dẫn này hiển thị công khai ngay trong văn bản phản hồi nên bất kỳ ai đọc cũng thấy được (nhân viên bắt được ngay). Lỗi ngầm chỉ dùng khi cả hệ thống lẫn khách hàng đều không nhận ra cho tới lúc đối soát mẫu.
-   - Phối hợp hoàn thiện bảng khắc phục cho 5 ca đại diện (Ca 9, 7, 18, 4, 17) với event phát hiện cụ thể (`input_validation_failed`, đối soát tự động mỗi giờ, `handoff_to_staff`, kiểm tra mẫu 100 hồ sơ/tuần) và gán đúng các vai trò (PM trợ lý hoàn phí, Kỹ sư trưởng agent, Trưởng nhóm CSKH, Kế toán trưởng).
+   - Phối hợp hoàn thiện bảng khắc phục cho 5 ca đại diện (Ca 1, 20, 16, 11, 12) với event phát hiện cụ thể đo được bằng thuộc tính, ngưỡng cảnh báo, tần suất kiểm tra và gán đúng các vai trò (PM trợ lý hoàn phí, Kỹ sư trưởng agent, Trưởng nhóm CSKH).
 2. **Xây dựng danh mục Event và Chỉ số (Nhiệm vụ E):**
    - Đóng góp xây dựng cấu trúc 10 event có trường `trace_id` trong `chi_so.md` để thay thế số đo phút giả lập bằng dữ liệu thời gian thực trong giai đoạn pilot.
    - Tham gia rà soát hồ sơ launch v0 dài 1 trang và hỗ trợ thẩm định đề xuất "Go có điều kiện".
