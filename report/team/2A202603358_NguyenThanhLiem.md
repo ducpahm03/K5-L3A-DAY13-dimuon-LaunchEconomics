@@ -26,12 +26,10 @@
 ## 3. Đóng góp cụ thể
 
 1. **Phân loại lỗi độc lập và đối soát (Nhiệm vụ C):**
-   - Hoàn thành bộ 20 nhãn độc lập trong 8 phút đúng nguyên tắc không trao đổi trước. Kết quả đối chiếu với Người gắn nhãn 2 đạt tỷ lệ đồng thuận **85,0% (17/20 ca)**, vượt ngưỡng chuẩn 80%.
-   - Đưa ra giải thích nguyên nhân gốc để thống nhất 3 ca không trùng:
-     - *Ca 6 (Do người dùng):* Khách chọn sai mục khi gửi yêu cầu; việc trợ lý thiếu gợi ý thuộc phần giải pháp khắc phục.
-     - *Ca 8 (Hệ thống):* Dẫn sai điều khoản chính sách là lỗi sai lộ ra công khai, nhân viên bắt được, không phải lỗi ngầm.
-     - *Ca 13 (Giới hạn hệ thống):* Bảo hiểm của đối tác là phạm vi ngoài chính sách hiện hành của LogiX-VN.
-   - Hoàn thiện bảng khắc phục cho 5 ca đại diện (Ca 9, 7, 18, 4, 17) với event phát hiện cụ thể (`input_validation_failed`, đối soát tự động mỗi giờ, `handoff_to_staff`, kiểm tra mẫu 100 hồ sơ/tuần) và gán đúng các vai trò (PM trợ lý hoàn phí, Kỹ sư trưởng agent, Trưởng nhóm CSKH, Kế toán trưởng).
+   - Hoàn thành bộ 20 nhãn độc lập trong 8 phút đúng nguyên tắc không trao đổi trước. Kết quả đối chiếu với Người gắn nhãn 2 (Nguyễn Trung Anh) đạt tỷ lệ đồng thuận rất cao **95,0% (19/20 ca)**, vượt xa ngưỡng yêu cầu 80%.
+   - Đưa ra giải thích nguyên nhân gốc để thống nhất ca không trùng duy nhất:
+     - *Ca 8 (Hệ thống vs Ngầm → Chốt Hệ thống):* Trợ lý trích "Điều 7.2" không có trong chính sách hiện hành, tức làm sai so với thiết kế; trích dẫn này hiển thị công khai ngay trong văn bản phản hồi nên bất kỳ ai đọc cũng thấy được (nhân viên bắt được ngay). Lỗi ngầm chỉ dùng khi cả hệ thống lẫn khách hàng đều không nhận ra cho tới lúc đối soát mẫu.
+   - Phối hợp hoàn thiện bảng khắc phục cho 5 ca đại diện (Ca 9, 7, 18, 4, 17) với event phát hiện cụ thể (`input_validation_failed`, đối soát tự động mỗi giờ, `handoff_to_staff`, kiểm tra mẫu 100 hồ sơ/tuần) và gán đúng các vai trò (PM trợ lý hoàn phí, Kỹ sư trưởng agent, Trưởng nhóm CSKH, Kế toán trưởng).
 2. **Xây dựng danh mục Event và Chỉ số (Nhiệm vụ E):**
    - Đóng góp xây dựng cấu trúc 10 event có trường `trace_id` trong `chi_so.md` để thay thế số đo phút giả lập bằng dữ liệu thời gian thực trong giai đoạn pilot.
    - Tham gia rà soát hồ sơ launch v0 dài 1 trang và hỗ trợ thẩm định đề xuất "Go có điều kiện".
@@ -44,7 +42,7 @@
 - **File bảng lỗi:** `report/team/bang_loi.md` (cột "Nhãn người 1", quy tắc phân biệt và bảng khắc phục).
 - **File chỉ số:** `report/team/chi_so.md` (mục 2 "Danh sách event cần ghi").
 - **Hồ sơ launch:** `report/team/ho_so_launch_v0.md` (mục 5 "Bảng lỗi và cách khắc phục").
-- **Nhánh Git & Commit:** Nhánh `NguyenThanhLiem-2A202603358`.
+- **Nhánh Git & Commit:** Nhánh `main` (`commit ced5f82`) và nhánh `NguyenThanhLiem-2A202603358`.
 
 ## 5. Công cụ AI đã dùng
 
@@ -62,3 +60,4 @@
 - Nắm chắc bản chất kinh tế học của agent và khung phân loại lỗi theo chuẩn Google PAIR.
 - Phối hợp nhịp nhàng với Người gắn nhãn 2 và các thành viên trong nhóm để hồ sơ Gate 2a đạt độ chuẩn xác cao.
 - **Đánh giá mức độ hoàn thành nhiệm vụ:** 100% / Xuất sắc.
+
