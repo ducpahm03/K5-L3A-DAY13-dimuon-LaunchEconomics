@@ -15,7 +15,7 @@ Người gắn nhãn 1: ... · Người gắn nhãn 2: Nguyễn Thanh Liêm (2A2
 | 5 | Ngầm | Ngầm | Có | Ngầm |
 | 6 | Do người dùng | Do người dùng | Có | Do người dùng |
 | 7 | Hệ thống | Hệ thống | Có | Hệ thống |
-| 8 | Ngầm | Hệ thống | Không | ... |
+| 8 | Ngầm | Hệ thống | Không | Hệ thống |
 | 9 | Do người dùng | Do người dùng | Có | Do người dùng |
 | 10 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
 | 11 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
@@ -35,7 +35,7 @@ Người gắn nhãn 1: ... · Người gắn nhãn 2: Nguyễn Thanh Liêm (2A2
 
 Mỗi ca không trùng một câu. Đồng thuận dưới 80% thì ghi định nghĩa đã viết lại.
 
-- ...
+- **Ca 8 (Ngầm hay Hệ thống) → Hệ thống:** trợ lý trích "Điều 7.2" không có trong chính sách hiện hành, tức làm sai so với thiết kế, và trích dẫn đó hiện ngay trong câu trả lời nên ai đọc cũng thấy được; Ngầm chỉ dùng khi không ai nhận ra cho tới lúc kiểm tra mẫu.
 
 ## Bảng khắc phục cho 5 ca, mỗi loại một ca
 
