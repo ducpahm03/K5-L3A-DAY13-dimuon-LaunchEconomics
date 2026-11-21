@@ -43,8 +43,8 @@ Cách phát hiện phải đo được (event, ngưỡng, tần suất). Ngườ
 
 | Ca | Loại lỗi | Phát hiện bằng gì | Khắc phục thế nào | Ai phụ trách |
 | --: | --- | --- | --- | --- |
-| ... | Do người dùng | ... | ... | ... |
-| ... | Hệ thống | ... | ... | ... |
-| ... | Ngữ cảnh | ... | ... | ... |
-| ... | Giới hạn hệ thống | ... | ... | ... |
-| ... | Ngầm | ... | ... | ... |
+| 1 | Do người dùng | Event `refund_ledger_write` có `ket_qua = loi_ngan_hang`, `reason = sai_so_tai_khoan`, kèm `trace_id`; đếm hằng ngày, cảnh báo khi vượt 1% số lệnh hoàn trong ngày | Trước khi tạo lệnh, kiểm tra độ dài số tài khoản theo từng ngân hàng và hiện tên chủ tài khoản để khách xác nhận; sai thì yêu cầu nhập lại, chưa tạo lệnh | PM trợ lý hoàn phí |
+| 20 | Hệ thống | Truy vấn mỗi giờ trên `refund_ledger_write`: đếm `request_id` có từ 2 bản ghi `ok` trở lên; ngưỡng 0 ca, có 1 ca là bật luật dừng an toàn trong `pilot_plan.yaml` | Mỗi lệnh hoàn mang `idempotency_key` = mã vận đơn + loại hoàn; lệnh trùng khoá trả lại kết quả của lệnh đầu, không ghi sổ cái lần hai | Kỹ sư trưởng agent |
+| 16 | Ngữ cảnh | Tỉ lệ phản ánh hoặc `ticket_reopened` có `reason = lam_phien` trên số tin gửi từ 22:00 đến 07:00, theo tuần; cảnh báo khi vượt 0,5% | Tin xong ngoài giờ được xếp hàng, gửi lúc 07:00; khách tự bật "nhận ngay" thì gửi luôn | Trưởng nhóm CSKH |
+| 11 | Giới hạn hệ thống | Event `handoff_to_staff` có `reason = dau_vao_khong_ho_tro` (tin thoại, ảnh), đếm theo tuần; vượt 3% số yêu cầu thì đưa việc thêm chuyển giọng nói thành chữ vào kế hoạch | Báo rõ trợ lý chưa nghe được tin thoại, chuyển nhân viên kèm file thoại và mã đơn, không bắt khách gõ lại từ đầu | PM trợ lý hoàn phí |
+| 12 | Ngầm | Chi phí token + tool mỗi yêu cầu tính theo depot từ `agent_run_completed`, hằng ngày; cảnh báo khi một depot vượt 1,5 lần trung vị các depot trong 3 ngày liên tiếp | Kiểm tra đủ trường trong kết quả tool; thiếu trường thì ghi lỗi tool và báo kỹ sư, không gọi lại; giới hạn số lần gọi tool trong một lần chạy | Kỹ sư trưởng agent |
