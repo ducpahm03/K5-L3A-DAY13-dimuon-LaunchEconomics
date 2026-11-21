@@ -4,7 +4,7 @@
 
 ## Hai bộ nhãn độc lập
 
-Người gắn nhãn 1: ... · Người gắn nhãn 2: Nguyễn Thanh Liêm (2A202603358) (gắn trong 8 phút, không trao đổi)
+Người gắn nhãn 1: Nguyễn Thanh Liêm (2A202603358) · Người gắn nhãn 2: ... (gắn trong 8 phút, không trao đổi)
 
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- |
@@ -15,7 +15,7 @@ Người gắn nhãn 1: ... · Người gắn nhãn 2: Nguyễn Thanh Liêm (2A2
 | 5 | Ngầm | Ngầm | Có | Ngầm |
 | 6 | Do người dùng | Do người dùng | Có | Do người dùng |
 | 7 | Hệ thống | Hệ thống | Có | Hệ thống |
-| 8 | Ngầm | Hệ thống | Không | Hệ thống |
+| 8 | Hệ thống | Ngầm | Không | Hệ thống |
 | 9 | Do người dùng | Do người dùng | Có | Do người dùng |
 | 10 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
 | 11 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
